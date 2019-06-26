@@ -70,8 +70,10 @@ for(let i = 0; i < inventory.length; i++) {
     console.log(`Car 33 is a ${inventory[i].car_year} ${inventory[i].car_make} ${inventory[i].car_model}`);
     }
 }
-console.log(`Car 33 is a *car year goes here* *car make goes here* *car model goes here*` );
+// console.log(`Car 33 is a *car year goes here* *car make goes here* *car model goes here*` );
 
+// or just Option 2
+console.log(`Car 33 is a ${inventory[32].car_year} ${inventory[32].car_make} ${inventory[32].car_model}`);
 // 
 
 // ==== Challenge 2 ====
