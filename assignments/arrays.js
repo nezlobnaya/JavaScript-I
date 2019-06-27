@@ -7,7 +7,7 @@ let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year"
 {"id":3,"car_make":"Land Rover","car_model":"Defender Ice Edition","car_year":2010},
 {"id":4,"car_make":"Honda","car_model":"Accord","car_year":1983},
 {"id":5,"car_make":"Mitsubishi","car_model":"Galant","car_year":1990},
-{"id":6,"car_make":"Honda","car_model":"Accord","car_year":1995},
+{"id":6,"car_make":"Audi","car_model":"riolet","car_year":1995},
 {"id":7,"car_make":"Smart","car_model":"Fortwo","car_year":2009},
 {"id":8,"car_make":"Audi","car_model":"4000CS Quattro","car_year":1987},
 {"id":9,"car_make":"Ford","car_model":"Windstar","car_year":1996},
@@ -85,8 +85,8 @@ let lastCar = inventory[inventory.length - 1];
 console.log(`Make is: ${lastCar.car_make} Model is: ${lastCar.car_model}`);
 
 // Option 2 However it mutates the array and if the arrays is changed it might not work properly
-let lastCar1 = inventory.pop();   
-console.log(`Make is: ${lastCar1.car_make} Model is: ${lastCar1.car_model}`);
+// let lastCar1 = inventory.pop();   
+// console.log(`Make is: ${lastCar1.car_make} Model is: ${lastCar1.car_model}`);
 
 
 console.log(`==== Challenge 3 ====`)
@@ -107,11 +107,12 @@ console.log(carYears);
 
 console.log(`==== Challenge 5 ====`)
 // The car lot manager needs to find out how many cars are older than the year 2000. Using the carYears array you just created, find out how many cars were made before the year 2000 by populating the array oldCars and logging it's length.
-let oldCars = [];
-for (let i = 0; i < inventory.length; i++) {
-    if(inventory[i].car_year < 2000)
-    oldCars.push(inventory[i]["car_model"]);
-    };
+let oldCars =[];
+for(let i = 0; i <inventory.length; i++){
+  if(inventory[i].car_year < 2000 ){
+    oldCars.push(inventory[i]);
+  }
+}
 console.log(oldCars.length); 
 
 console.log(`==== Challenge 6 ====`)
