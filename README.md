@@ -6,18 +6,18 @@
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
-* [ ] Add your project manager as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: git push origin `<firstName-lastName>`.
+* [x] Create a forked copy of this project.
+* [x] Add your project manager as collaborator on Github.
+* [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [x] Push commits: git push origin `<firstName-lastName>`.
 
 **Follow these steps for completing your project.**
 
-* [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-* [ ] Add your project manager as a reviewer on the pull-request
-* [ ] Your project manager will count the project as complete by merging the branch back into master.
+* [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+* [x] Add your project manager as a reviewer on the pull-request
+* [x] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Assignment Description
 
@@ -40,13 +40,13 @@ To better understand objects, you really just need to write more of them. The [o
 
 The [arrays.js](assignments/arrays.js) assignment takes us through a large data set of used cars.  You have been asked to help a used car business with some customer requests based on their inventory.  Use for loops and arrays to solve their problems.
 
-* Utilize the the array `inventory` to complete your challenges
+* Utilize the array `inventory` to complete your challenges
 * Use any array method you see fit to solve the problem
 * Don't work on stretch until you have completed all assignments
 
 ### Arrow Function Syntax
 
-* [ ] Arrow Function Syntax - [Check out this awesome guide for ES6 arrow syntax](https://medium.freecodecamp.org/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26). You will see more and more arrow functions as you progress deeper into JavaScript. Use the [function-conversion.js](assignments/function-conversion.js) file as a helper challenge to showcase some of the differences between ES5 and ES6 syntax.  
+* [x] Arrow Function Syntax - [Check out this awesome guide for ES6 arrow syntax](https://medium.freecodecamp.org/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26). You will see more and more arrow functions as you progress deeper into JavaScript. Use the [function-conversion.js](assignments/function-conversion.js) file as a helper challenge to showcase some of the differences between ES5 and ES6 syntax.  
 
 ### Stretch
 
